@@ -6,7 +6,7 @@ import argparse
 def terminal_args():
     parser = argparse.ArgumentParser(description="Simple example of a training script.")
     parser.add_argument("--test", action="store_true")
-    parser.add_argument("--inference--url="https://cdn11.bigcommerce.com/s-405b0/images/stencil/590x590/products/97/20409/8000-gildan-tee-t-shirt.ca-model__66081.1724276210.jpg"
+    parser.add_argument("--inference--url="https://www.quiksilver.com/cdn/shop/products/aqbwr03064_quiksilver_2Cw_wbb0_frt1.jpg?v=1716587633&width=825"
 ", action="store_true")
     return parser.parse_known_args()[0]
 
